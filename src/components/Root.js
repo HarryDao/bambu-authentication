@@ -4,10 +4,10 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import reducers from '../reducers';
 
-const Root = ({ initialState = {}, children }) => {
+const Root = ({ initial = {}, children }) => {
   const store = createStore(
     reducers,
-    initialState,
+    initial,
     applyMiddleware(thunk)
   );
 

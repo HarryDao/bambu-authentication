@@ -1,0 +1,10 @@
+.Verify {
+    width: 100%;
+    > .loading {
+        text-align: center;
+    }
+    > .error {
+        text-align: center;
+        color: red;
+    }
+}

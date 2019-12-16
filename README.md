@@ -15,12 +15,15 @@ This is a simple authentication app, built with stack:
 
 ## Run:
 
-### install
+### Install
 ```
 yarn
 ```
 
 ### Development
+
+- make sure MongoDB is up and running
+
 
 - run client:
 
@@ -39,6 +42,8 @@ yarn dev:server
 ### Production
 
 - leave SERVER_URL in ./src/config/index.js blank (so client and server is the same)
+
+- make sure MongoDB is up and running
 
 - build client production
 
